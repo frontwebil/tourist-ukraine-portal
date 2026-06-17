@@ -40,7 +40,7 @@ export default function AboutPage() {
           <div className="about-image">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://images.unsplash.com/photo-1561542320-9a18cd340e98?w=600&h=400&fit=crop"
+              src="https://varta1.com.ua/uploads/media/images/image/9d/8d/9d8d20ce31a842f58aa6651d6cc4e795n5qobfltetxhygz_image.jpg"
               alt="Львів — перлина Західної України"
             />
           </div>
@@ -86,7 +86,7 @@ export default function AboutPage() {
               { icon: "📐", name: "CSS Grid", desc: "Сіткова розмітка" },
               { icon: "📏", name: "Flexbox", desc: "Гнучка розмітка" },
               { icon: "📱", name: "Медіазапити", desc: "Адаптивний дизайн" },
-              { icon: "🟢", name: "Node.js", desc: "Серверне середовище" },
+              { icon: "NodeJs", name: "Node.js", desc: "Серверне середовище" },
             ].map((tech) => (
               <div className="stat-card" key={tech.name}>
                 <span style={{ fontSize: "2rem" }}>{tech.icon}</span>

@@ -43,56 +43,7 @@ export default function ContactsPage() {
         </div>
 
         {/* Форма + Карта */}
-        <div className="contacts-grid">
-          {/* Форма зворотного зв'язку */}
-          <div>
-            <h2 className="section-title" style={{ marginBottom: "1.5rem" }}>
-              Напишіть нам
-            </h2>
-            <form className="contact-form">
-              <div>
-                <label htmlFor="name">Ваше ім&apos;я</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Введіть ваше ім'я"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="email">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Введіть ваш email"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="subject">Тема</label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  placeholder="Тема повідомлення"
-                />
-              </div>
-              <div>
-                <label htmlFor="message">Повідомлення</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="Напишіть ваше повідомлення..."
-                  required
-                />
-              </div>
-              <button type="submit">Надіслати повідомлення</button>
-            </form>
-          </div>
-
-          {/* Google Maps */}
+        <div className="">
           <div>
             <h2 className="section-title" style={{ marginBottom: "1.5rem" }}>
               Ми на карті
